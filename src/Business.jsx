@@ -16,8 +16,14 @@ const creators = [
     { name: "YouTuber Placeholder 03", category: "Creator / Category" },
 ]
 
+const explores = [
+
+    { name: "Thumbnails", },
+    { name: "Videos", },
+]
+
 const Business = () => {
-            
+
     return (
         <section id="business" className="bg-neutral-900 text-white">
             <Navbar />
@@ -71,12 +77,86 @@ const Business = () => {
                         ))}
                     </div>
                 </div>
+
+                <div id="analytics" className="mt-24">
+                    <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+                        <div>
+                            <p className="mb-3 text-sm uppercase tracking-[0.3em] text-white/60">
+                                Our Impact
+                            </p>
+
+                            <h2 className="text-3xl font-semibold sm:text-4xl">
+                                Results That Speak
+                            </h2>
+                        </div>
+
+                        <p className="max-w-md text-sm leading-6 text-white/60">
+                            A snapshot of our growth, audience reach, and the impact we've created over the years.
+                        </p>
+                    </div>
+
+                    <div className="mt-12 overflow-hidden rounded-2xl border border-white/15 bg-[#171717] text-white">
+
+                        {/* Statistics */}
+                        <div className="grid grid-cols-1 sm:grid-cols-3">
+                            <div className="border-b border-white/10 p-6 text-center sm:border-b-0 sm:border-r">
+                                <p className="text-sm text-white/60">Total Clients</p>
+                                <h3 className="mt-2 text-3xl font-bold">250+</h3>
+                            </div>
+
+                            <div className="border-b border-white/10 p-6 text-center sm:border-b-0 sm:border-r">
+                                <p className="text-sm text-white/60">Total Subscribers</p>
+                                <h3 className="mt-2 text-3xl font-bold">383K</h3>
+                            </div>
+
+                            <div className="p-6 text-center">
+                                <p className="text-sm text-white/60">Total Views</p>
+                                <h3 className="mt-2 text-3xl font-bold">5.8L</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div id="explore" className="mt-24">
+                    <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+                        <div>
+                            <p className="mb-3 text-sm uppercase tracking-[0.3em] text-white/60">
+                                Explore More
+                            </p>
+
+                            <h2 className="text-3xl font-semibold sm:text-4xl">
+                                Our Work Demo
+                            </h2>
+                        </div>
+
+                        <p className="max-w-md text-sm leading-6 text-white/60">
+                            A snapshot of our work how we make impact full videos and thumbnails
+                        </p>
+                    </div>
+
+                </div>
+
+                <div id="newsroom" className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+                    {explores.map((explore) => (
+                        <article key={explore.name} className="group overflow-hidden border border-white/15 bg-black">
+                            <div className="flex aspect-video items-center justify-center bg-linear-to-br from-white/20 via-white/5 to-transparent text-center text-white/50 transition-colors group-hover:from-white/30">
+                                <span className="px-6 text-sm uppercase tracking-[0.2em]">Thumbnail placeholder</span>
+                            </div>
+                            <div className="p-5">
+                                <h3 className="font-medium">{explore.name}</h3>
+                                <a className="mt-5 inline-block text-sm text-white/70 underline underline-offset-4 hover:text-white" href="#contact">View category</a>
+                            </div>
+                        </article>
+                    ))}
+                </div>
+
             </div>
 
             <Footer />
 
-
-            
         </section>
     )
 }
