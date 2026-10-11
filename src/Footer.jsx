@@ -48,11 +48,13 @@ const Footer = () => {
                 <div className="mx-auto flex w-full max-w-336 flex-col gap-3 px-4 py-5 text-xs text-white/50 md:flex-row md:items-center md:justify-between">
                     <span>© {new Date().getFullYear()} TrioVision. All rights reserved.</span>
                     <div className="flex gap-6">
-                        <a className="hover:text-white" href="#privacy">Privacy Policy</a>
-                        <a className="hover:text-white" href="#terms">Terms of Use</a>
+                        <a
+                            onClick={() => navigate("/privacy-policy")} className="hover:text-white">Privacy Policy</a>
+                        <a
+                            onClick={() => navigate("/terms-of-use")} className="hover:text-white">Terms of Use</a>
                     </div>
                 </div>
-            </div>
+            </div>  
         </footer>
     )
 }

@@ -21,7 +21,7 @@ const Business = () => {
     return (
         <section id="business" className="bg-neutral-900 text-white">
             <Navbar />
-            <div className="mx-auto w-full max-w-[1344px] px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
+            <div className="mx-auto w-full max-w-336 px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
                 <div className="max-w-4xl">
                     <p className="mb-4 text-sm uppercase tracking-[0.3em] text-white/60">Our business</p>
                     <h1 className="text-4xl font-semibold tracking-tight sm:text-6xl">7hive-media</h1>
@@ -59,7 +59,7 @@ const Business = () => {
                     <div id="newsroom" className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                         {creators.map((creator) => (
                             <article key={creator.name} className="group overflow-hidden border border-white/15 bg-black">
-                                <div className="flex aspect-video items-center justify-center bg-gradient-to-br from-white/20 via-white/5 to-transparent text-center text-white/50 transition-colors group-hover:from-white/30">
+                                <div className="flex aspect-video items-center justify-center bg-linear-to-br from-white/20 via-white/5 to-transparent text-center text-white/50 transition-colors group-hover:from-white/30">
                                     <span className="px-6 text-sm uppercase tracking-[0.2em]">Thumbnail placeholder</span>
                                 </div>
                                 <div className="p-5">
@@ -74,6 +74,9 @@ const Business = () => {
             </div>
 
             <Footer />
+
+
+            
         </section>
     )
 }
