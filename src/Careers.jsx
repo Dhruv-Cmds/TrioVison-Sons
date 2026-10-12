@@ -31,7 +31,7 @@ const Careers = () => (
                     </div>
                     <div className="border-t border-white/20">
                         {roles.map((role) => (
-                            <a key={role.title} href={`mailto:careers@triovision.com?subject=${encodeURIComponent(role.title)}`} className="group grid gap-4 border-b border-white/20 py-7 transition-colors hover:bg-white/4 sm:grid-cols-[1fr_auto] sm:items-center">
+                            <a key={role.title} href={`mailto:triovisioncontact@gmail.com?subject=${encodeURIComponent(role.title)}`} className="group grid gap-4 border-b border-white/20 py-7 transition-colors hover:bg-white/4 sm:grid-cols-[1fr_auto] sm:items-center">
                                 <div>
                                     <h3 className="text-xl font-medium transition-colors group-hover:text-white/70 sm:text-2xl">{role.title}</h3>
                                     <p className="mt-2 text-sm text-white/50">{role.team} · {role.location}</p>
@@ -54,7 +54,7 @@ const Careers = () => (
             <section className="mx-auto w-full max-w-336 px-4 py-20 sm:px-6 sm:py-28 lg:px-8">
                 <div className="flex flex-col justify-between gap-8 border border-white/15 p-8 sm:p-12 lg:flex-row lg:items-end">
                     <div><p className="text-sm uppercase tracking-[0.3em] text-white/50">Don’t see your role?</p><h2 className="mt-5 max-w-2xl text-3xl font-medium sm:text-5xl">Tell us what you would like to build.</h2></div>
-                    <a href="mailto:careers@triovision.com" className="shrink-0 border-b border-white pb-2 text-sm uppercase tracking-[0.2em] transition-colors hover:border-white/50 hover:text-white/60">Say hello <span aria-hidden="true">↗</span></a>
+                    <a href="mailto:triovisioncontact@gmail.com" className="shrink-0 border-b border-white pb-2 text-sm uppercase tracking-[0.2em] transition-colors hover:border-white/50 hover:text-white/60">Say hello <span aria-hidden="true">↗</span></a>
                 </div>
             </section>
         </main>

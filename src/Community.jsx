@@ -32,7 +32,7 @@ const Community = () => (
                     </div>
                     <div className="lg:pb-2">
                         <p className="max-w-xl text-lg leading-8 text-white/70 sm:text-2xl sm:leading-10">A growing network of creators, builders, partners, and curious minds sharing the energy to make meaningful work.</p>
-                        <a href="mailto:hello@triovision.com" className="mt-8 inline-flex items-center gap-3 border-b border-white pb-2 text-sm uppercase tracking-[0.2em] transition-colors hover:border-white/50 hover:text-white/70">Join the conversation <span aria-hidden="true">↗</span></a>
+                        <a href="mailto:triovisioncontact@gmail.com" className="mt-8 inline-flex items-center gap-3 border-b border-white pb-2 text-sm uppercase tracking-[0.2em] transition-colors hover:border-white/50 hover:text-white/70">Join the conversation <span aria-hidden="true">↗</span></a>
                     </div>
                 </div>
             </section>
@@ -64,7 +64,7 @@ const Community = () => (
                     <p className="relative text-sm uppercase tracking-[0.3em] text-white/50">Community notes</p>
                     <h2 className="relative mt-5 max-w-2xl text-3xl font-medium leading-tight sm:text-5xl">The best work starts with a good question.</h2>
                     <p className="relative mt-6 max-w-xl leading-7 text-white/60">Follow along for ideas from our teams and partners on creativity, responsible growth, and the work behind the work.</p>
-                    <a href="mailto:hello@triovision.com?subject=Community%20updates" className="relative mt-8 inline-block border border-white/30 px-5 py-3 text-sm transition-colors hover:bg-white hover:text-black">Get community updates</a>
+                    <a href="mailto:triovisioncontact@gmail.com?subject=Community%20updates" className="relative mt-8 inline-block border border-white/30 px-5 py-3 text-sm transition-colors hover:bg-white hover:text-black">Get community updates</a>
                 </div>
             </section>
         </main>

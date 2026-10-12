@@ -26,14 +26,14 @@ const Newsroom = () => (
                     {stories.map((story, index) => (
                         <article key={story.title} className={`${index === 0 ? "lg:col-span-2" : ""} group flex min-h-96 flex-col justify-between border border-white/15 bg-neutral-900 p-6 transition-colors hover:border-white/40 sm:p-8`}>
                             <div><div className="flex items-center justify-between gap-4 text-xs uppercase tracking-[0.2em] text-white/40"><span>{story.category}</span><span>{story.date}</span></div><h3 className={`${index === 0 ? "sm:max-w-2xl sm:text-4xl" : "sm:text-3xl"} mt-16 max-w-xl text-2xl font-medium leading-tight`}>{story.title}</h3><p className="mt-5 max-w-lg leading-7 text-white/55">{story.text}</p></div>
-                            <a href="mailto:press@triovision.com" className="mt-10 inline-flex items-center gap-3 text-sm text-white/70 transition-colors group-hover:text-white">Read story <span aria-hidden="true">↗</span></a>
+                            <a href="mailto:triovisioncontact@gmail.com" className="mt-10 inline-flex items-center gap-3 text-sm text-white/70 transition-colors group-hover:text-white">Read story <span aria-hidden="true">↗</span></a>
                         </article>
                     ))}
                 </div>
             </section>
 
             <section className="border-y border-white/10 bg-neutral-900">
-                <div className="mx-auto grid w-full max-w-336 gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-[1fr_1.4fr] lg:items-center lg:px-8"><div><p className="text-sm uppercase tracking-[0.3em] text-white/50">Media enquiries</p><h2 className="mt-4 text-3xl font-medium sm:text-4xl">Need more information?</h2></div><div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end"><p className="max-w-md leading-7 text-white/60">For interviews, company information, or partnership enquiries, our team would be happy to help.</p><a href="mailto:press@triovision.com" className="shrink-0 border-b border-white pb-2 text-sm uppercase tracking-[0.2em] hover:border-white/50 hover:text-white/60">Contact press <span aria-hidden="true">↗</span></a></div></div>
+                <div className="mx-auto grid w-full max-w-336 gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-[1fr_1.4fr] lg:items-center lg:px-8"><div><p className="text-sm uppercase tracking-[0.3em] text-white/50">Media enquiries</p><h2 className="mt-4 text-3xl font-medium sm:text-4xl">Need more information?</h2></div><div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end"><p className="max-w-md leading-7 text-white/60">For interviews, company information, or partnership enquiries, our team would be happy to help.</p><a href="mailto:triovisioncontact@gmail.com" className="shrink-0 border-b border-white pb-2 text-sm uppercase tracking-[0.2em] hover:border-white/50 hover:text-white/60">Contact press <span aria-hidden="true">↗</span></a></div></div>
             </section>
         </main>
 

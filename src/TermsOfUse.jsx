@@ -67,7 +67,7 @@ const TermsOfUse = () => {
 
                     <section>
                         <h2>10. Contact</h2>
-                        <p className="mt-4">Questions about these Terms of Use can be sent to <a className="underline underline-offset-4 hover:text-white" href="mailto:info@triovision.com">info@triovision.com</a>.</p>
+                        <p className="mt-4">Questions about these Terms of Use can be sent to <a className="underline underline-offset-4 hover:text-white" href="mailto:triovisioncontact@gmail.com">triovisioncontact@gmail.com</a>.</p>
                     </section>
                 </div>
             </main>
