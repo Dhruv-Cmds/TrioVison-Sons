@@ -35,6 +35,8 @@ const Navbar = () => {
                         <li><a onClick={() => { closeMenu(); navigate("/"); }} className="block rounded-2xl px-3 py-2 hover:bg-gray-50 hover:text-black cursor-pointer">About Us</a></li>
 
                         <li><a onClick={() => { closeMenu(); navigate("/careers"); }} className="block rounded-2xl px-3 py-2 hover:bg-gray-50 hover:text-black cursor-pointer">Careers</a></li>
+
+                        <li><a onClick={() => { closeMenu(); navigate("/newsroom"); }} className="block rounded-2xl px-3 py-2 hover:bg-gray-50 hover:text-black cursor-pointer">Newsroom</a></li>
                     </ul>
                 </nav>
             </div>

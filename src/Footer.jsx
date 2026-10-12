@@ -37,7 +37,7 @@ const Footer = () => {
                     <ul className="grid grid-cols-2 gap-x-12 gap-y-4 text-sm text-white/80 md:grid-cols-3">
                         <li><a onClick={() => navigate("/business")} className="cursor-pointer transition-colors hover:text-white">Business</a></li>
                         <li><a onClick={() => navigate("/community")} className="cursor-pointer transition-colors hover:text-white">Community</a></li>
-                        <li><a onClick={() => navigate("/about")} className="cursor-pointer transition-colors hover:text-white">About Us</a></li>
+                        <li><a onClick={() => navigate("/")} className="cursor-pointer transition-colors hover:text-white">About Us</a></li>
                         <li><a onClick={() => navigate("/newsroom")} className="cursor-pointer transition-colors hover:text-white">Newsroom</a></li>
                         <li><a onClick={() => navigate("/careers")} className="cursor-pointer transition-colors hover:text-white">Careers</a></li>
                     </ul>
